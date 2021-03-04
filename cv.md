@@ -20,6 +20,7 @@ Have good memory, strive to get new skills.
 
 ## *Education*
 Brest State Technical University
+graduated in 2018
 
 ## *Languages*
 English level -A2
