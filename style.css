@@ -1,2 +1,6 @@
-#block
-{margin: 0 auto;}
+.block {
+    display: block;
+    width: 400px;
+    height: 200px;
+margin: 0 auto;
+}
