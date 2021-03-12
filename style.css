@@ -1,6 +1,20 @@
+
+h1 {
+   text-align: center;
+}
 .block {
     display: block;
-    width: 400px;
-    height: 200px;
+    background-color:rgba(108, 76, 109, 0.5);
+    height: auto;
+    width: 960px;
 margin: 0 auto;
+border: 5px solid rgb(17, 17, 26);
+column-count: 2;
+column-gap: 20px;
+column-rule: 2px dotted rgba(108, 76, 109, 0.5);
+}
+
+h2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 25px;
+    font-style: italic;
 }
