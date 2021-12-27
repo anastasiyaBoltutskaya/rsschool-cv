@@ -1,1 +1,1 @@
-https://anastasiyaBoltutskaya.github.io/rsschool-cv/cv.md
+https://anastasiyaBoltutskaya.github.io/rsschool-cv/cv
