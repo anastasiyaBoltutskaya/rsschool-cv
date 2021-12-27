@@ -6,8 +6,16 @@
 
 ## **Contacts**
 
-tel.number: + 37529 8293868
-e-mail: nastia1oskirko@gmail.com
+**tel.number*: + 37529 8293868
+
+
+**e-mail*: nastia1oskirko@gmail.com
+
+
+**github*: anastasiyaBoltutskaya
+
+
+**discord*: Настасья anastasiyaBoltutskaya
 
 ********************************************
 
