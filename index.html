@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+    
+<head>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" >
+
+</head>
+
+
+<body>
+    <header class='name'>Anastasiya Boltutskaya</header>
+    <img src='https://media-exp1.licdn.com/dms/image/C5603AQGBDfVJrROv4Q/profile-displayphoto-shrink_200_200/0/1632480363198?e=1646265600&v=beta&t=IJl3IjnLIQNIz__yWHQs2DU361mE1DFjgT2zmmikfgU' alt="Photo" width="200" height="200" >
+    <main>
+    <div class="sec">
+        <h2 id='big'>Contacts</h2>
+
+        <ul> 
+            <li>tel.number: + 375 29 8293868</li>
+            <li>e-mail: nastia1oskirko@gmail.com</li>
+            <li> discord: Настасья anastasiyaBoltutskaya</li>
+            <li>github: anastasiyaBoltutskaya</li>
+        </ul>
+
+    </div>
+    
+    <div class='sec'>
+        <h2 id='big'> About myself </h2>
+        <p> Graduated BrSTU in 2016 year in speciality "Heat and Gas Supply, Ventilation and Air Protection".
+            Have been working for 3 years an engineer in gassupply organization.
+            Intrested in web develompent, badminton, swimming.</p>
+    </div>
+
+    <div class="sec"><h2 id='big'>Skills</h2>
+    <ol>
+        <li>Git</li>
+        <li>HTML&CSS</li>
+        <li>Basic knowledge of Python</li>
+        <li>PyCharm</li>
+    </ol> 
+</div>
+
+<div class="sec" >
+    <h2 id='big'>English level</h2>
+    <p>B1</p>
+</div>
+
+<div class="sec"><h2 id='big'>Code example</h2>
+<code><pre>def quiz(them):
+    answers = []
+    correct_answers_count = 0
+
+    install.install_lib("pandas")
+    import pandas as pd
+    df = pd.read_csv(f"{THEMES_PATH}/{them}", delimiter=";", dtype=str)\
+        .sample(frac=1)\
+        .reset_index(drop=True)\
+        .head(COUNT_QUESTIONS)
+
+    for idx in df.index:
+        _question = df['question'][idx]
+        _variant = df['variant'][idx]
+        _answer = df['answer'][idx]
+        print(_question, _variant, sep='\n')
+        answer = validate.handle_answer()
+        # сравниваем ответы
+        if answer == _answer:
+            print(f'{answer} - Отлично\n')
+            correct_answers_count += 1
+        else:
+            print(f'{answer} - К сожалению нет\n', end='\n')
+
+        answers.append(f"{_question}\n{_variant}\nВаш ответ: {answer}\nПравильный ответ: {_answer}")
+    return correct_answers_count, answers</pre></code></div>
+
+    </main>
+
+<footer>
+    Data 28.12.2021
+</footer>
+</body>
+</html>
