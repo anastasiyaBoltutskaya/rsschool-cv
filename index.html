@@ -1,52 +1,73 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
     
 <head>
     <title>CV</title>
     <link rel="stylesheet" href="style.css" >
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-
 <body>
-    <header class='name'>Anastasiya Boltutskaya</header>
-    <img src='https://media-exp1.licdn.com/dms/image/C5603AQGBDfVJrROv4Q/profile-displayphoto-shrink_200_200/0/1632480363198?e=1646265600&v=beta&t=IJl3IjnLIQNIz__yWHQs2DU361mE1DFjgT2zmmikfgU' alt="Photo" width="200" height="200" >
-    <main>
-    <div class="sec">
-        <h2 id='big'>Contacts</h2>
-
-        <ul> 
-            <li>tel.number: + 375 29 8293868</li>
-            <li>e-mail: nastia1oskirko@gmail.com</li>
-            <li> discord: Настасья anastasiyaBoltutskaya</li>
-            <li>github: anastasiyaBoltutskaya</li>
-        </ul>
-
-    </div>
     
-    <div class='sec'>
-        <h2 id='big'> About myself </h2>
-        <p> Graduated BrSTU in 2016 year in speciality "Heat and Gas Supply, Ventilation and Air Protection".
+        <nav class = "menu_page">
+            <ul class = "menu"> 
+                <li  class = "menu_item"><a href='#contacts'> Contacts</a></li>
+                <li class = "menu_item"><a href="#myself">About myself</a></li>
+                <li class = "menu_item"><a href="#skills">Skills</a></li>
+                <li class = "menu_item"><a href="#enlevel">English level</a></li>
+                <li class = "menu_item"><a href="#code">Code example</a></li>
+                <li class = "menu_item"><a href="#education">Education</a></li>
+                <li class = "menu_item"><a href="#project">Project</a></li>
+            </ul>
+        </nav>
+    
+       <div class="block">
+        <header>
+
+             <div class='name'>
+                <h1>Anastasiya Boltutskaya</h1>
+            </div>
+
+            <div class="photo">    
+                <img src='/DoB0JP8GqPw.jpg' alt="Photo" width="300" height="300" >
+  
+            </div>
+    
+        </header>
+
+    <main>
+        <div class="content">
+                 
+        <section id="myself" class='sec'>
+            <h2> About myself </h2>
+            <p> Graduated BrSTU in 2016 year in speciality "Heat and Gas Supply, Ventilation and Air Protection".
             Have been working for 3 years an engineer in gassupply organization.
             Intrested in web develompent, badminton, swimming.</p>
-    </div>
-
-    <div class="sec"><h2 id='big'>Skills</h2>
-    <ol>
-        <li>Git</li>
-        <li>HTML&CSS</li>
-        <li>Basic knowledge of Python</li>
-        <li>PyCharm</li>
-    </ol> 
-</div>
-
-<div class="sec" >
-    <h2 id='big'>English level</h2>
-    <p>B1</p>
-</div>
-
-<div class="sec"><h2 id='big'>Code example</h2>
-<code><pre>def quiz(them):
+        </section>
+        
+        <section id="skills" class='sec'>
+            <h2>Skills</h2>
+            <ol>
+                <li>Git</li>
+                <li>HTML&CSS</li>
+                <li>Basic knowledge of Python</li>
+                <li>PyCharm</li>
+            </ol>
+        </section>
+        
+        <section id="enlevel" class='sec'>
+            <h2>Language level</h2>
+            <ul>
+                <li>English level - B1</li>
+                <li>Russian level - native speaker</li>
+            </ul>
+            
+        </section>
+        
+        <section id="code" class='sec'>
+        <h2 >Code example</h2>
+        <pre><code>def quiz(them):
     answers = []
     correct_answers_count = 0
 
@@ -70,13 +91,47 @@
         else:
             print(f'{answer} - К сожалению нет\n', end='\n')
 
-        answers.append(f"{_question}\n{_variant}\nВаш ответ: {answer}\nПравильный ответ: {_answer}")
-    return correct_answers_count, answers</pre></code></div>
+        answers.append(f"{_question}\n{_variant}\nВаш ответ: {answer}\nOтвет: {_answer}")
+    return correct_answers_count, answers</code></pre>
+</section>
+        </div>
+    <div class ="aside">
+        <aside id="contacts">
+            <h2>Contacts</h2>
+            <ul> 
+                <li>tel.number: + 375 29 8293868</li>
+                <li><a href="nastia1oskirko@gmail.com">e-mail: nastia1oskirko@gmail.com</a></li>
+                <li> discord: Настасья anastasiyaBoltutskaya</li>
+                <li><a href="https://github.com/anastasiyaBoltutskaya/rsschool-cv"> github: anastasiyaBoltutskaya</a></li>
+            </ul>
+            
+            <section id="education">
 
+            <h2>Education</h2>
+            <ul>
+                <li>BrSTU</li>
+                <li>IBA Python programming basics</li>
+                <li>Stepik Introduction to Python </li>
+            </ul>
+        </section>
+        <section id="project">
+
+            <h2>Projects</h2>
+            <a href="">My CV</a>
+        </section>
+        </aside>
+    </div>
     </main>
+    
+
 
 <footer>
-    Data 28.12.2021
+    <img src="/OC145web_1024x1024.jpg" alt="2022 year" width="100" height="100">
+    <a href="https://github.com/anastasiyaBoltutskaya/rsschool-cv"><img src='/github.svg' alt="GitHub" width="100" height="100"></a>
+   <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" width="100" height="100"></a>
+    
+    
 </footer>
+       </div>
 </body>
 </html>
